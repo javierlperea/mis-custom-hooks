@@ -1,32 +1,3 @@
-// import { useEffect, useState } from "react"
-
-
-
-
-// export const UseFetch = ( url ) => {
-
-//     const [state, setState] = useState({ loading: true, data: false, error:null })
-    
-//     //para trabajar con fetch usamos el hook useEffect
-//     useEffect( () => {
-    
-//         fetch( url )
-//             .then( resp => resp.json() )
-//             .then( data => {
-//                 setState({
-//                     loading: false,
-//                     error: null,
-//                     data
-//                 })
-//             })
-
-//     }, [url]);
-
-//     return state;
-// }
-
-
-
 
 import { useEffect, useRef, useState } from "react"
 
